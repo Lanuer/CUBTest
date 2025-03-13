@@ -1,6 +1,9 @@
 # CUBTest
 這是一個查看台北旅遊網的APP
 
+Demo影片：
+https://drive.google.com/file/d/13Ase4Wr3caZALVOGET6lcvZ2KYmIOd5F/view
+
 開發說明：
 本APP使用Kotlin開發，架構為MVVM，切換畫面使用Fragment，可以切換語系、展示景點圖片、使用WebView顯示景點官方網站
 使用到的Lib有lifecycle的viewmodel、livedata綁定畫面與資料完成MVVM架構、retrofit發動API、gson解析JSON資料、glide顯示連結圖片、recyclerview顯示景點清單、navigation的fragment切換畫面...等
