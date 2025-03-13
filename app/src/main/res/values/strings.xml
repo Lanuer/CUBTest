@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">CUBTest</string>
+
+    <string name="imageview_language_content_description">切換語系</string>
+    <string name="imageView_content_description">景點列表圖片</string>
+    <string name="imageview_arrow_content_description">進入景點詳情</string>
+    <string name="imageview_detail_content_description">景點詳情圖片</string>
+
+    <string name="zh_tw">zh-tw</string>
+    <string name="title_zh_tw">台北旅遊網</string>
+    <string name="address_label_zh_tw">地址</string>
+    <string name="modified_label_zh_tw">最後更新時間</string>
+
+    <string name="zh_cn">zh-cn</string>
+    <string name="title_zh_cn">台北旅游网</string>
+    <string name="address_label_zh_cn">地址</string>
+    <string name="modified_label_zh_cn">最后更新时间</string>
+
+    <string name="en">en</string>
+    <string name="title_en">Taipei Travel</string>
+    <string name="address_label_en">Address</string>
+    <string name="modified_label_en">Last Updated</string>
+
+    <string name="ja">ja</string>
+    <string name="title_ja">台北トラベル</string>
+    <string name="address_label_ja">住所</string>
+    <string name="modified_label_ja">最終更新時間</string>
+
+    <string name="ko">ko</string>
+    <string name="title_ko">타이베이 여행</string>
+    <string name="address_label_ko">주소</string>
+    <string name="modified_label_ko">최종 업데이트 시간</string>
+
+    <string name="es">es</string>
+    <string name="title_es">Viaje a Taipei</string>
+    <string name="address_label_es">Dirección</string>
+    <string name="modified_label_es">Última actualización</string>
+
+    <string name="id">id</string>
+    <string name="title_id">Wisata Taipei</string>
+    <string name="address_label_id">Alamat</string>
+    <string name="modified_label_id">Waktu Pembaruan Terakhir</string>
+
+    <string name="th">th</string>
+    <string name="title_th">เที่ยวไทเป</string>
+    <string name="address_label_th">ที่อยู่</string>
+    <string name="modified_label_th">อัปเดตล่าสุด</string>
+
+    <string name="vi">vi</string>
+    <string name="title_vi">Du lịch Đài Bắc</string>
+    <string name="address_label_vi">Địa chỉ</string>
+    <string name="modified_label_vi">Thời gian cập nhật cuối</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_list">
+
+    <fragment
+        android:id="@+id/fragment_list"
+        android:name="com.example.cubtest.ui.fragment.ListFragment"
+        tools:layout="@layout/fragment_list">
+        <action
+            android:id="@+id/action_fragment_list_to_fragment_detail"
+            app:destination="@id/fragment_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_detail"
+        android:name="com.example.cubtest.ui.fragment.DetailFragment"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="attraction"
+            app:argType="com.example.cubtest.data.model.Attraction" />
+        <action
+            android:id="@+id/action_fragment_detail_to_fragment_web"
+            app:destination="@id/fragment_web" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_web"
+        android:name="com.example.cubtest.ui.fragment.WebFragment"
+        tools:layout="@layout/fragment_web">
+        <argument
+            android:name="url"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
